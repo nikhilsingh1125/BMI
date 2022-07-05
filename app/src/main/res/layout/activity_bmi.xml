@@ -20,34 +20,33 @@
         android:id="@+id/contentLayout"
         android:layout_width="340dp"
         android:layout_height="200dp"
-        android:background="@drawable/cardbackground"
         android:layout_centerInParent="true"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        >
+        android:background="@drawable/bmibackground">
 
         <TextView
-            android:textStyle="bold"
+            android:id="@+id/display"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Display"
-            android:textColor="@color/white"
-            android:textAlignment="center"
-            android:textSize="40sp"
             android:layout_marginTop="22dp"
-            android:id="@+id/display"/>
+            android:text="Display"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:textStyle="bold"
-            android:layout_below="@id/display"
+            android:id="@+id/gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gender"
-            android:textColor="@color/white"
-            android:textAlignment="center"
-            android:textSize="21sp"
+            android:layout_below="@id/display"
             android:layout_marginTop="15dp"
-            android:id="@+id/gender"/>
+            android:text="Gender"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/category"
@@ -60,11 +59,6 @@
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
-
-
-
-
-
 
 
     </RelativeLayout>
