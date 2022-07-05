@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/drawable-v24/bmibackground.xml" value="0.1195" />
         <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/drawable/calculatebtn.xml" value="0.108" />
         <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/drawable/cardbackground.xml" value="0.1195" />
         <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/drawable/genderfocus.xml" value="0.1195" />
         <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/drawable/gendernotfocus.xml" value="0.1195" />
         <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_bmi.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Nikhil Singh/AndroidStudioProjects/BMI/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
       </map>
     </option>
   </component>

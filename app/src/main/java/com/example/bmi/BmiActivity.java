@@ -1,6 +1,7 @@
 package com.example.bmi;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -40,12 +41,8 @@ public class BmiActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bmi);
 
 
-        Objects.requireNonNull(getSupportActionBar()).setElevation(0);
-        getSupportActionBar().setTitle(Html.fromHtml("<font Color=\"white\"></font>"));
-        getSupportActionBar().setTitle("Result");
-
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#1E1D1D"));
-        getSupportActionBar().setBackgroundDrawable(colorDrawable);
+        Toolbar toolbar1 = findViewById(R.id.toolbar1);
+        toolbar1.setTitle("Result");
 
 
 

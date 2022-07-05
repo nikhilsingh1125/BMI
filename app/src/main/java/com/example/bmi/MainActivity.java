@@ -1,6 +1,7 @@
 package com.example.bmi;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
@@ -36,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        Toolbar toolbar =findViewById(R.id.toolbar);
+        toolbar.setTitle("BMI");
+        setSupportActionBar(toolbar);
 
         android.widget.Button btncalculate = findViewById(R.id.calculate);
         currentHeight = findViewById(R.id.currentHeight);
@@ -164,16 +167,12 @@ public class MainActivity extends AppCompatActivity {
                     intent.putExtra("weight",weight2);
                     intent.putExtra("age",age2);
                     startActivity(intent);
+
                 }
 
 
             }
         });
-
-
-
-
-
 
     }
 }
